@@ -54,3 +54,53 @@ main button{
     height: 250px;
     margin-right: 100px;
 }
+ 
+    body {
+      font-family: sans-serif;
+      background: #f5faff;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .stats-section {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .stats-title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 100px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+    }
+
+    .stat-box {
+      color: #1f4fd6;
+    }
+
+    .stat-box .number {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .stat-box .label {
+      color: #666;
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    .stats-section{
+        max-width: 900px;
+        margin: auto;
+        background-color: #d6dbe7;
+        padding: 50px;
+        border-radius: 12px;
+    }
+  
+ 
