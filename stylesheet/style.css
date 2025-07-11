@@ -15,7 +15,7 @@ nav{
 nav button{
     color: white;
     background-color: blue;
-    border-color: blue;
+    border: none;
     border-radius: 5px;
 }
 div{
@@ -29,6 +29,28 @@ main{
 main button{
     color: white;
     background-color: blue;
-    border-color: blue;
+    border: none;
     border-radius: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px o 200px;
+}
+.btn-primary{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+}
+.banner-content{
+    padding: 20px 0 20px 100px;
+}
+.banner-picture{
+    border-radius: 50px;
+    align-items: center;
+    padding: auto; 
+    width: 300px;
+    height: 250px;
+    margin-right: 100px;
 }
